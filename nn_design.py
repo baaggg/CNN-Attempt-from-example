@@ -116,13 +116,6 @@ if config.mode == 'conv':
     input_shape = (X.shape[1], X.shape[2], 1)
     model = get_conv_model()
 
-
-# elif config.mode == 'time':
-#     X, y = build_rand_feat()
-#     y_flat = np.argmax(y, axis=1)
-#     input_shape = (X.shape[1], X.shape[2])
-#     model = get_recurrent_model()
-
 class_weight = compute_class_weight('balanced',
                                     np.unique(y_flat),
                                     y_flat)
