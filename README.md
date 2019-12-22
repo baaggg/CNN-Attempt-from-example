@@ -1,5 +1,5 @@
 # CNN-Attempt-from-example
-Followed Seth Adam's example on YouTube: https://www.youtube.com/playlist?list=PLhA3b2k8R3t2Ng1WW_7MiXeh1pfQJQi_P
+Followed Seth Adams' example on YouTube: https://www.youtube.com/playlist?list=PLhA3b2k8R3t2Ng1WW_7MiXeh1pfQJQi_P
 
 Folders / Files in order:
 
