@@ -38,7 +38,6 @@ def build_predictions(audio_dir):
             y_true.append(c)
 
         fn_prob[fn] = np.mean(y_prob, axis=0).flatten()
-
         return y_true, y_pred, fn_prob
 
 df = pd.read_csv('audiofiles.csv')
