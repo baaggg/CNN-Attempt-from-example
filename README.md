@@ -28,6 +28,4 @@ Folders / Files in order:
     The big sexy file full of TensorFlow and Keras code to design and model the CNN. I barely understand what the hell is happening throughout the code.
 
 9. predictions.py
-    Script that was supposed to import the model created by nn_design.py, but a KeyError was thrown at line 61:
-    >> y_prob = fn_prob[row.fname]
-and I'm not smart enough to fix it, nor do I care that much at this time. I would like to believe if that error was not there, the remainder of the code would run correctly. Also sort-of shows how to make a dataframe in Python and use Pandas to export it to a csv file.
+    Script that was supposed to import the model created by nn_design.py, but a KeyError was thrown at line 61: `y_prob = fn_prob[row.fname]` and I'm not smart enough to fix it, nor do I care that much at this time. I would like to believe if that error was not there, the remainder of the code would run correctly. Also sort-of shows how to make a dataframe in Python and use Pandas to export it to a csv file.
